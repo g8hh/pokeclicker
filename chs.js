@@ -12,6 +12,12 @@ var cnItems = {
     _OTHER_: [],
 
     //未分类：
+    //地图名称
+    'Kanto': '关东地区',
+    'Johto': '城都地区',
+    'Hoenn': '丰缘地区',
+    'Sinnoh': '神奥地区',
+    'Unova': '合众地区',
     //1.0.宝可梦
     'Bulbasaur': '妙蛙种子',
     'Ivysaur': '妙蛙草',
