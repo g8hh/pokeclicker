@@ -1447,7 +1447,7 @@ var cnItems = {
     'Replant Rate': '死亡后重新种植概率',
     'Farm Points per Harvest': '每颗果树可收获农场币',
     'Harvested': '收获数',
-    'until sprout': '后发芽',
+    '(`${formattedTime} until sprout`)': '(`${formattedTime} 后发芽`)',
     'until grown': '后长大',
     'until Bloom': '后开花',
     'until ripe': '后成熟',
