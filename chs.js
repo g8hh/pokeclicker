@@ -409,7 +409,7 @@ var cnItems = {
     'Rayquaza': '烈空坐',
     'Jirachi': '基拉祈',
     'Deoxys': '代欧奇希斯',
-    //丰缘地区
+    //神奥地区
     'Turtwig': '草苗龟',
     'Grotle': '树林龟',
     'Torterra': '土台龟',
@@ -519,7 +519,7 @@ var cnItems = {
     'Shaymin': '谢米',
     'Arceus': '阿尔宙斯',
     'Victini': '比克提尼',
-    //神奥地区
+    //合众地区
     'Snivy': '藤藤蛇',
     'Servine': '青藤蛇',
     'Serperior': '君主蛇',
@@ -750,7 +750,7 @@ var cnItems = {
     'Diancie': '蒂安希',
     'Hoopa': '胡帕',
     'Volcanion': '波尔凯尼恩',
-    //合众地区
+    //阿罗拉地区
     'Rowlet': '木木枭',
     //722
     'Dartrix': '投羽枭',
@@ -1475,6 +1475,12 @@ var cnItems = {
     'Hint': '提示',
     'I\'ve heard that a special Berry can appear after being surrounded by': '我听说一种特殊的浆果会在被包围后出现，用',
     'berries at the farm': '浆果，从农场里',
+    '': '',
+
+    //剧情
+    'Mystery of Deoxys': '神秘的代欧奇希斯',
+    'Discover the mystery of Deoxys': '探索神秘的代欧奇希斯',
+    '': '',
     '': '',
 
     //1.2.待归类
