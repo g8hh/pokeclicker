@@ -1806,7 +1806,7 @@ var cnItems = {
     '': '',
     '': '',
     'Otherwise after some time being fully grown, the Berry plant will wither away,': '否则，果树达到一定寿命之后自动收获浆果，并且枯萎。',
-    ' dropping half of the expected Berries but may also be re-planted automatically.': '浆果收获数量下降到预期的一半，果树有可能会重获新生。'
+    ' dropping half of the expected Berries but may also be re-planted automatically.': '浆果收获数量下降到预期的一半，果树有可能会重获新生。',
     'I\'ve heard that a special Berry can appear after being surrounded by': '我听说一种特殊的浆果会在被包围后出现，用',
     'berries at the farm': '浆果，从农场里',
     '': '',
