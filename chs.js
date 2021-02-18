@@ -3473,7 +3473,7 @@ var cnExcludePostfix = [
 //原样输出的字段：(.+)
 var cnRegReplace = new Map([
     [/^([\d\.,]+) \/$/, '$1 \/'],
-    [/^You can trade your level 100 pokémon for an egg of the same pokémon. Hatched pokémon will gain a (.+) bonus of their base attack and have a higher chance of becoming shiny!$/, '你可以用100级的宝可梦换一个同样的宝可梦蛋。孵化的宝可梦将获得 $1 的基础攻击加成，并有更高的几率获得闪光!'],
+    [/^You can trade your level 100 pokémon for an egg of the same pokémon. Hatched pokémon will gain a (.+)% bonus of their base attack and have a higher chance of becoming shiny!$/, '你可以用100级的宝可梦换一个同样的宝可梦蛋。孵化的宝可梦将获得 $1 的基础攻击加成，并有更高的几率获得闪光!'],
     [/^You will now start the game with (.+) Pokéballs$/, '现在你将以 $1 个 精灵球 开始游戏'],
     [/^Attack: (\d+),$/, '攻击：$1，'],
     [/^(\d+),$/, '$1,'],
