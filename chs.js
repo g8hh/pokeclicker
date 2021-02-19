@@ -3473,7 +3473,7 @@ var cnExcludePostfix = [
 //原样输出的字段：(.+)
 var cnRegReplace = new Map([
     [/^([\d\.,]+) \/$/, '$1 \/'],
-    [/^You can trade your level 100 pokémon for an egg of the same pokémon. Hatched pokémon will gain a (.+)% bonus of their base attack and have a higher chance of becoming shiny!$/, '你可以用100级的宝可梦换一个同样的宝可梦蛋。孵化的宝可梦将获得 $1 的基础攻击加成，并有更高的几率获得闪光!'],
+    [/^You can trade your level 100 pokémon for an egg of the same pokémon. Hatched pokémon will gain a (.+)\% bonus of their base attack and have a higher chance of becoming shiny!$/, '你可以用100级的宝可梦换一个同样的宝可梦蛋。孵化的宝可梦将获得 $1\% 的基础攻击加成，并有更高的几率获得闪光!'],
     [/^You will now start the game with (.+) Pokéballs$/, '现在你将以 $1 个 精灵球 开始游戏'],
     [/^Attack: (\d+),$/, '攻击：$1，'],
     [/^(\d+),$/, '$1,'],
@@ -3482,10 +3482,10 @@ var cnRegReplace = new Map([
     [/^ Your (.+) evolved into a (.+)$/, '你的 $1 进化成了 $2'],
     [/^ You bought (.+) (.+)$/, '你买了 $1个 $2'],
     [/^ You used (.+) (.+)$/, '你使用了 $1个 $2'],
-    [/^ Lucky! You found another (.+)!\n                    $/, '真幸运！你找到了双倍的 $1 !'],
-    [/^ Jackpot! You found another (.+)!\n                    $/, '中奖啦！你找到了另一个 $1 !'],
+    [/^ Lucky! You found another (.+)!\n(.+)$/, '真幸运！你找到了双倍的 $1 !'],
+    [/^ Jackpot! You found another (.+)!\n(.+)$/, '中奖啦！你找到了另一个 $1 !'],
     [/^ You found (.+)$/, '你发现了一个 $1'],
-    [/^ You found an extra (.+) in the Mine!\n                    $/, '你在矿井里发现了一个额外的 $1 !'],
+    [/^ You found an extra (.+) in the Mine!\n(.+)$/, '你在矿井里发现了一个额外的 $1 !'],
     [/^ You have captured a (.+)$/, '你抓到了一只 $1'],
     [/^ Congratulations, you defeated (.+)$/, '恭喜你，你打败了 $1'],
     [/^ Found (\d+) (.+) in a dungeon chest$/, '在地牢里的 宝箱 发现了 $1个 $2 ！'],
