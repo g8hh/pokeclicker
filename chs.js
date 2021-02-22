@@ -1469,7 +1469,7 @@ var cnItems = {
     '': '',
     'In towns you can battle gymleaders to earn badges, or visit shops to buy items.': '在城镇里，你可以和道馆馆主战斗以获得徽章，或者去商店购买物品。',
     'Capture Pokémon to gain Dungeon Tokens in order to battle dungeons.': '捕捉宝可梦可以获得地牢币，以便进入地牢战斗。',
-    '': '',
+    'As you earn achievements, you gain up to 100% (per region) more money and xp from all sources.': '当你获得成就时，你可以从所有来源获得100%（每个地区）更多的钱和经验值',
     '': '',
     'Let me see your progress...Ah, fantastic, as usual': '让我看看你的进展...啊，太棒了，像往常一样',
     'Allow me some time to arrange tickets for your next destination.': '给我点时间安排下一个目的地的船票。',
@@ -1527,7 +1527,6 @@ var cnItems = {
     'I was just watching my favorite show, The National Gymquirer. It was a live segment! Some hot shot trainer from Kanto defeated Drayden! It was amazing! That trainer is so cool! Drayden is like unbeatable.': '我只是在看我最喜欢的节目，训练师挑战道馆。这是一个现场片段！一些来自关东的热门训练师打败了双龙市馆主夏卡！太棒了！那个训练师太酷了！夏卡是很难被打败的。',
     'Then my programme got interrupted by an emergency broadcast. A report on the first confirmed sightings of Tornadus and Thundurus in over twenty-five years! I\'ve read so much about them, they are my favorites.': '然后我的节目被紧急广播打断了。一份关于25年来首次证实的龙卷云和雷电云的报告！我读了很多关于他们的书，他们是我的最爱。',
     'Last time they were spotted they just roamed around, causing all kinds of mischief. According to my books anyway. I\'m sure that amazing trainer from the TV will want to catch these mighty forces of nature.': '上次被发现时它们只是四处游荡，引起各种各样的恶作剧。根据我的调查，我敢肯定电视上那个神奇的训练师会想要捕捉到这些强大的自然力量',
-    
     '': '',
     //剧情
     'Teachy tv': '无线电视',
@@ -1630,7 +1629,10 @@ var cnItems = {
     'Are you sure you want to refresh the quest list?': '确定要刷新任务列表吗?',
     'refresh': '刷新',
     'cancel': '取消',
-    '': '',
+    'Quit quest': '放弃任务',
+    'Are you sure?': '你确定吗?',
+    'You can start the quest again later but you will lose all progress!': '你可以稍后重开这个任务，但你会失去所有进度!',
+    'quit': '放弃',
     //天气系统
     'The sunlight is strong.': '阳光强烈.',
     'The weather is clear and pleasant.': '天气晴朗宜人.',
@@ -1940,7 +1942,7 @@ var cnItems = {
     'Defeat Pokemon League Hoenn': '击败 精灵联盟 (丰缘地区)',
     'Defeat Pokemon League Sinnoh': '击败 精灵联盟 (神奥地区)',
     'Defeat Pokemon League Unova': '击败 精灵联盟 (合众地区)',
-    'Defeat the Victory Road dungeon': '击败 冠军之路 (关东)',
+    'Defeat the Victory Road dungeon in Kanto': '击败 冠军之路 (关东)',
     'Defeat the Victory Road Hoenn dungeon': '击败 冠军之路 (丰缘)',
     'Defeat the Victory Road Sinnoh dungeon': '击败 冠军之路 (神奥)',
     'Defeat the Victory Road Unova dungeon': '击败 冠军之路 (合众)',
