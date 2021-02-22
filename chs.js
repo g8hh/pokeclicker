@@ -2,7 +2,7 @@
 
  @name    : 锅巴汉化 - Web汉化插件
  @author  : 麦子、JAR、小蓝、好阳光的小锅巴、God_Dragon
- @version : V0.7.5 - 2021-01-30
+ @version : V0.7.7 - 2021-02-23
  @website : http://www.g8hh.com
 
 */
@@ -515,7 +515,9 @@ var cnItems = {
     'Jirachi': '基拉祈',
     'Deoxys': '代欧奇希斯',
     'Deoxys (Attack': '代欧奇希斯 (攻击形态',
+    'Deoxys (attack': '代欧奇希斯 (攻击形态',
     'Deoxys (Defense': '代欧奇希斯 (防御形态',
+    'Deoxys (defense': '代欧奇希斯 (防御形态',
     'Deoxys (Speed': '代欧奇希斯 (速度形态',
     'Deoxys (speed': '代欧奇希斯 (速度形态',
     //神奥地区387
@@ -1564,7 +1566,7 @@ var cnItems = {
     'Mystery of Deoxys': '神秘的代欧奇希斯',
     'Discover the mystery of Deoxys': '探索神秘的代欧奇希斯',
     'Defeat 500 Psychic type Pokémon': '击败500个超能系宝可梦',
-    'Capture 200 Psychic type Pokémon': '获得200个超能碎片',
+    'Capture 200 Psychic type Pokémon': '捕捉200个超能系宝可梦',
     'Defeat stage 100 in the Battle Frontier': '在对战开拓区打到第100阶段',
     'Congratulations on completing the': '恭喜你完成了',
     'You can now travel on to': '你现在可以前往',
@@ -1590,6 +1592,7 @@ var cnItems = {
     ' You dig deeper...': '你越挖越深...',
     ' You have successfully completed the dungeon': '你已经成功通关了地牢',
     ' You have completed a quest!': '您已经完成了一个任务',
+    'Click to Backup Save!': '点击 备份存档!',
     '': '',
     '': '',
     ' A Berry is ready to harvest!': '浆果已经成熟，可以收割了！',
@@ -1623,8 +1626,8 @@ var cnItems = {
     '': '',
     '': '',
     '': '',
-    '': '',
-    '': '',
+    'Skip this mine layer?': '是否跳过这个矿层?',
+    'skip': '跳过',
     'Refresh quest list': '刷新任务列表',
     'Are you sure you want to refresh the quest list?': '确定要刷新任务列表吗?',
     'refresh': '刷新',
@@ -2890,8 +2893,6 @@ var cnItems = {
     'Decreased price multiplier': '价格乘数降低',
     'Decreased the Shovel cost': '减少了铲车费用',
     'Defeat 10,000 Pokémon on Johto Route': '在城都路线上击败10000只宝可梦。',
-    'Deoxys (attack': '代欧奇希斯 (攻击',
-    'Deoxys (defense': '代欧奇希斯 (防御',
     'Deoxys no longer roaming': '代欧奇希斯 不再漫游',
     'Devolutions are obtained when breeding evolved forms': '演化是在培育进化形式时获得的。',
     'Disable automatic backup save downloading when game updates': '当游戏更新时，禁止自动下载备份保存文件。',
@@ -3378,9 +3379,10 @@ var cnPrefix = {
     'Burglar': '趁火打劫者',
     'Channeler': '祈祷师',
     'Cooltrainer': '精英训练家',
-    '': '',
-    '': '',
-    '': '',
+    'Cool Couple': '菁英情侣',
+    'Black Belt': '空手道王',
+    'Juggler': '杂耍艺人',
+    'Tamer': '驯兽师',
     '': '',
     '': '',
     'Berries can be traded with Berry Masters in later regions for other useful items': '浆果可以在以后的地区与浆果大师交易，换取其他有用的物品。',
@@ -3489,6 +3491,7 @@ var cnRegReplace = new Map([
     [/^You will now start the game with (.+) Pokéballs$/, '现在你将以 $1 个 精灵球 开始游戏'],
     [/^Attack: (\d+),$/, '攻击：$1，'],
     [/^(\d+),$/, '$1,'],
+    [/^(.+) Game has been updated!$/, '$1 游戏已经更新!'],
     [/^(\d+) traveler".$/, '$1 次旅行者”。'],
     [/^(\d+) explorer".$/, '$1 次探险者”。'],
     [/^ Your (.+) evolved into a (.+)$/, '你的 $1 进化成了 $2'],
