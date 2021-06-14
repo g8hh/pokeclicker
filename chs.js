@@ -3144,7 +3144,7 @@ var cnItems = {
     'Gym leader defeated': '健身房领袖被击败',
     'Let\'s GO': '出发',
     'Let\'s Go': '出发',
-    '': '',
+    'Oh No! We got ambushed by these Pokémon': '不好了！ 我们被这些宝可梦伏击了',
     '': '',
     '': '',
     '': '',
