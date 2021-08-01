@@ -1700,6 +1700,8 @@ var cnItems = {
     'Are you sure?': '你确定吗?',
     'You can start the quest again later but you will lose all progress!': '你可以稍后重开这个任务，但你会失去所有进度!',
     'quit': '放弃',
+    ' A Vivillon is hiding somewhere.': '一只彩粉蝶藏在某处.',
+    'It has been spotted at some Lakes.': '可以在一些湖泊中寻找它.',
     //天气系统
     'The sunlight is strong.': '阳光强烈.',
     'The weather is clear and pleasant.': '天气晴朗宜人.',
