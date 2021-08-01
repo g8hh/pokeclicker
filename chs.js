@@ -1627,6 +1627,11 @@ var cnItems = {
     'of their total attack.': '的总攻击力。',
     'You will also have to progress to the Dock in': '你也必须进行到码头',
     'before you are able to travel between regions again.': '才能够再次在不同地区之间旅行。',
+    'The Great Vivillon Hunt': '搜寻伟大的彩粉蝶',
+    'Discover the beauty of Vivillon': '探索美丽的彩粉蝶',
+    'Capture 100 Water type Pokémon': '捕获100个水系宝可梦',
+    'Find and capture the rare Vivillon!\nHint: It has been spotted at some Lakes..': '发现并捕捉稀有的彩粉蝶！提示：可能在一些湖泊中发现它..',
+    '': '',
     '': '',
     '': '',
 
