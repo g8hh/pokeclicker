@@ -1535,7 +1535,7 @@ var cnItems = {
     '': '',
     'In towns you can battle gymleaders to earn badges, or visit shops to buy items.': '在城镇里，你可以和道馆馆主战斗以获得徽章，或者去商店购买物品。',
     'Capture Pokémon to gain Dungeon Tokens in order to battle dungeons.': '捕捉宝可梦可以获得地牢币，以便进入地牢战斗。',
-    'As you earn achievements, you gain up to 100% (per region) more money, Dungeon Tokens and Experience and from all sources.': '当你获得越来越多的成就时,你可以从所有资源来源获得100%(包含每个地区)更多的金币、地牢币和经验值.',
+    'As you earn achievements, you gain up to 100% (per region) more Money, Dungeon Tokens and Experience and from all sources.': '当你获得越来越多的成就时,你可以从所有资源来源获得100%(包含每个地区)更多的金币、地牢币和经验值.',
     '': '',
     'Let me see your progress...Ah, fantastic, as usual': '让我看看你的进展...啊，太棒了，像往常一样',
     'Allow me some time to arrange tickets for your next destination.': '给我点时间安排下一个目的地的船票。',
@@ -3768,7 +3768,7 @@ var cnExcludePostfix = [
 //原样输出的字段：(.+)
 var cnRegReplace = new Map([
     [/^([\d\.,]+) \/$/, '$1 \/'],
-    [/^You can trade your level 100 pokémon for an egg of the same pokémon. Hatched pokémon will gain a (.+)% bonus of their base attack and have a higher chance of becoming shiny!$/, '你可以用100级的宝可梦换一个同样的宝可梦蛋。并且孵化的宝可梦将获得 $1% 的基础攻击加成，并有更高的几率获得闪光!'],
+    [/^You can trade your level 100 pokémon for an egg of the same pokémon. Hatched pokémon will gain a (.+) bonus of their base attack and have a higher chance of becoming shiny!$/, '你可以用100级的宝可梦换一个同样的宝可梦蛋。并且孵化的宝可梦将获得 $1 的基础攻击加成，并有更高的几率获得闪光!'],
     [/^You will now start the game with (.+) Pokéballs$/, '现在你将以 $1 个 精灵球 开始游戏'],
     [/^ Defeated: (.+) Pokémon$/, '击败了: $1 只宝可梦'],
     [/^Attack: (\d+),$/, '攻击：$1，'],
