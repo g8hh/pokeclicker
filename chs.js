@@ -1684,6 +1684,8 @@ var cnItems = {
     'Find and capture the rare Vivillon!\nHint: It\'s surrounded by dragons..': '寻找并捕捉稀有的彩粉蝶！提示：龙把它包围着..',
     'Capture 100 Ice type Pokémon': '捕获100个冰系宝可梦',
     'Find and capture the rare Vivillon!\nHint: It can be found at a very cold place..': '寻找并捕捉稀有的彩粉蝶！提示：可以在一个非常寒冷的地方找到它..',
+    'Capture 200 Normal type Pokémon': '捕获200个普通系宝可梦',
+    'Find and capture the rare Vivillon!\nHint: Only the strongest Challengers can reach it.': '寻找并捕捉稀有的彩粉蝶！提示：只有最强的挑战者才能做到这一点.',
     '': '',
     //左上角的游戏通知
     ' Game loaded': '游戏加载成功',
