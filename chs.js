@@ -857,6 +857,7 @@ var cnItems = {
     'Vivillon (Savanna': '彩粉蝶 (热带草原',
     'Vivillon (Icy Snow': '彩粉蝶 (冰雪花纹',
     'Vivillon (Meadow': '彩粉蝶 (花园花纹',
+    'Vivillon (PokéBall': '彩粉蝶 (球球花纹',
     'Vivillon (Poké Ball': '彩粉蝶 (球球花纹',
     'Vivillon (Fancy': '彩粉蝶 (幻彩花纹',
     'Litleo': '小狮狮',
