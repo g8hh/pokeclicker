@@ -2214,7 +2214,7 @@ var cnItems = {
     'Defeat Pokémon League Unova': '击败 精灵联盟 (合众地区)',
     'Defeat Pokémon League Kalos': '击败 精灵联盟 (卡洛斯地区)',
     'Defeat the Victory Road dungeon in Kanto': '击败 冠军之路 (关东)',
-    'Defeat the Victory Road dungeon in Johto': '击败 冠军之路 (城都)',
+    'Defeat the Victory Road Johto dungeon in Johto': '击败 冠军之路 (城都)',
     'Defeat the Victory Road Hoenn dungeon in Hoenn': '击败 冠军之路 (丰缘)',
     'Defeat the Victory Road Sinnoh dungeon in Sinnoh': '击败 冠军之路 (神奥)',
     'Defeat the Victory Road Unova dungeon in Unova': '击败 冠军之路 (合众)',
