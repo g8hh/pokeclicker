@@ -4131,7 +4131,7 @@ var cnRegReplace = new Map([
     [/^ Your (.+) evolved into a (.+)$/, '你的 $1 进化成了 $2'],
     [/^ You used (.+) (.+)$/, '你使用了 $1个 $2'],
     [/^I can now arrange for you to travel to (.+)$/, '我现在可以安排你去 $1'],
-    [/^Hello, (.+) Champion, you've come a long way$/, '你好, $1冠军, 你已经走过很长一段路了'],
+    [/^Hello, (.+) Champion, you\'ve come a long way$/, '你好, $1冠军, 你已经走过很长一段路了'],
     [/^(.+) still needs to be completed or (.+) still needs to be completed.$/, '需要打通 $1 或者打通 $2.'],
     [/^(.+) still needs to be completed.$/, '需要打通 $1.'],
     [/^(.+) needs to be completed.$/, '需要打通 $1.'],
