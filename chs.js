@@ -4552,7 +4552,7 @@ var cnItems = {
     "Are Shiny": "闪光",
     "Not yet caught": "未捕捉",
     "filter": "过滤器",
-    "": "",
+    "Defeat Jasmine's Gym at Olivine City in Johto": "击败城都地区浅葱市的阿蜜道馆",
     "": "",
     "": "",
     "": "",
