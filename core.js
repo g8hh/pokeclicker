@@ -137,7 +137,7 @@ var cnItem = function (text, node) {
             return text_prefix + text + text_reg_exclude_postfix + text_postfix;
     }
 
-    if (cnItems._OTHER_.length < 2000) {
+    if (cnItems._OTHER_.length < 1000) {
         //未收录则保存
         cnItems._OTHER_.push(save_text);
         cnItems._OTHER_.sort(
@@ -230,12 +230,12 @@ function TransSubTextNode(node) {
 								node.innerText = cnItem(node.innerText, node);
                         } else {
                             TransSubTextNode(node);
-                            transTaskMgr.doTask();
                         }
                     }
                 }
             }
         }
+        transTaskMgr.doTask();
         observer.observe(targetNode, observer_config);
         //window.afterTransTime = performance.now();
         //console.log("捕获到页面变化并执行汉化，耗时" + (afterTransTime - beforeTransTime) + "毫秒");
