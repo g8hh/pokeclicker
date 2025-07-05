@@ -13,6 +13,7 @@ var cnItems = {
 
     //地图名称
     'Kanto': '关东地区',
+    'Kanto': '关东地区',
     'Johto': '城都地区',
     'Hoenn': '丰缘地区',
     'Sinnoh': '神奥地区',
